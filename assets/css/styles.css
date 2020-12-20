@@ -1,7 +1,37 @@
 html,
 body {
-    font-family: sans-serif;
+    background: black;
+    color: white;
+    font-family: monospace;
+}
+body {
+    margin-left: 3rem;
+}
+a {
+    color:cyan;
+}
+a:visited {
+    color:plum;
 }
 h3 {
     font-style: italic;
+    color:lime;
+}
+ul.terminal-items {
+    display:grid;
+    grid-template-columns: max-content max-content;
+}
+ul.terminal-labels {
+    margin-left: 4em;
+}
+ul {
+    margin:0px;
+    padding:0px;
+}
+li {
+    list-style:none;
+}
+li.terminal-label,
+li.terminal-link {
+    padding:1em;
 }
